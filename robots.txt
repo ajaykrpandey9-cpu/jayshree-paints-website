@@ -1,0 +1,25 @@
+# robots.txt - SEO Configuration
+# This file helps search engines crawl and index your website
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
